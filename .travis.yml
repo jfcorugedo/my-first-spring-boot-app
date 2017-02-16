@@ -2,3 +2,8 @@ language: java
 jdk:
 - oraclejdk8
 script: mvn -B verify
+deploy:
+  provider: heroku
+  App: jfcorugedo-rest-api
+  api_key:
+    secure: "pTY2o7b9TVHmy7qYjxEhRG7AR1P3rIwNiO3SXd6Eb9hAC60s6m+kesc+uLU1wnHdqbNJi+YIsPMpkruGt0T/fDWI60L0SH9kJA3dvhT61f8e2MLB4TEoqyypNfu5TTLMHjir7IhbEd6iPd5wUU0g62a/Pbqdtu9w+PoecYmH6rwOTC0sY7RfuWg3H5Ja8PokBGM+BQGSY4fdTI1CJACJ0bZaZKsj8GlDdWU7F8d6ZW/7wqbHD4prq4U6epfY5hvZi4AMJfQLCUz/MCA6i4J4litHpcL+mShTuqg3Z9p0P10NXUeXf2MDXCnkh/QKrM8nsQBmWbWqN+u258tLBZNxNcWIXAuqtzzhqpHh9BcME8Ansh7Qgwz3skXNC1yZZZRknlrs2MM3ZWmWITTszNHfhpG9Jw3Oh4SjuV02dSxnmId8hMTL7Ed1/Wf+PEbNTiuQo0w9zEmDcmCfwY71ZhHSCDe23gMTLGDA3b5VNlc3ueyZ1Gq2fOLnN+8N+VBmHzCcvZCmjISQOJfcomEV0Nbtm+GBBOLwcV2f8x5+NqoC4GWft8Yj4mYbsdaPLmAZ6EFqFua+j06gSBybzYI0dPEl3KN4/ABGEHYd28n3fIaGgnLApJKC+dSl6bjCbxMjI/aJsd+f94KCboPS5oOEYphUqOogpEGvWC8QgsGlblpqAdM="
