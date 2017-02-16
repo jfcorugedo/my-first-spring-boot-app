@@ -74,7 +74,7 @@ public class ProductsControllerTest {
 		then().
 			statusCode(200).
 			body("id", notNullValue()).
-			body("name", contains(" ", "Product1", "Product2")).
+			body("name", contains("Product0", "Product1", "Product2")).
 			body("price", contains(0f, 100.0f, 200.0f));
 	}
 }
