@@ -1,0 +1,8 @@
+{
+    "product":
+    [
+        {"name":"Product0","price":0.0},
+        {"name":"Product1","price":100.0},
+        {"name":"Product2","price":200.0}
+    ]
+}
